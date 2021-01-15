@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+menu {
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    background-color: #d79;
+}
+
+
+.a {
+    color: #bce;
+    padding: 10px;
+}
+
+
+li {
+    display: inline;
+}
+
+
+.submenu:hover {
+    background-color: #d80;
+    text-decoration: line-through;
+}
+
+
+.rainbow{
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.art{
+    width: 90vw;
+    height: 90vh;
+    margin-left: 5vw;
+    background-color: #d79;
+    color: #bce;
+    box-shadow: 7px 7px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.t{
+    font-size: xx-large;
+}
+
+.artMenu{
+    color: #bce;
+    background-color: #d79;
+    width: 70vw;
+    height: 2.5vw;
+    margin-left: 5vw;
+    padding-left: 20vw;
+    box-shadow: 7px 7px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.artMenu a:hover{
+    text-decoration: line-through;
+}
+
+.final{
+    margin-top: 30vh;
+    margin-right: 10px;
+}
+
+.back{
+    background-color: #8bb;
+}
+
+.border{
+    margin:0 auto;
+    width: 70vw;
+    height: 70vh;
+    border: 15px solid #bce;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.directed{
+    margin-top: 15vh;
+    margin-right: 10px;
+    font-size: xx-large;
+}
+
+.none{
+    display: none;
+}
